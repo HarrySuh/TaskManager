@@ -1,0 +1,11 @@
+package com.example.csastudent2015.taskapp;
+
+/**
+ * Created by csastudent2015 on 4/12/16.
+ */
+public class BackendSettings {
+    public static final String APPLICATION_ID = "0E0AF7DC-7B42-2DCD-FF79-04000C477500";
+    public static final String ANDROID_SECRET_KEY  = "CC8D4928-C144-6741-FF22-3C153D9BB000";
+    public static final String VERSION = "v1";
+
+}
