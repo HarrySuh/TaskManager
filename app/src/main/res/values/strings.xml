@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">TaskApp</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_label">Log In</string>
+    <string name="sign_up_text">Sign Up!</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="username_hint2">Username</string>
+    <string name="password_hint2">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="email_address_hint">Email Address</string>
+    <string name="sign_up_label">Sign Up</string>
+    <string name="task_name_hint">Task Name</string>
+    <string name="task_description_hint">Task Description</string>
 </resources>
