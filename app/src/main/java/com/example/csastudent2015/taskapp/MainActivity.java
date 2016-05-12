@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         Fragment fragment = null;
         if (position == 0) {
             // Insert the fragment by replacing any existing fragment
-            fragment = new TaskFragment();
+            fragment = new TaskListFragment();
         }
         else {
             fragment = new UserFragment();

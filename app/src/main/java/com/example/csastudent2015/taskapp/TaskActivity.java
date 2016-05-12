@@ -1,25 +1,18 @@
 package com.example.csastudent2015.taskapp;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
 /**
- * Created by csastudent2015 on 4/12/16.
+ * Created by csastudent2015 on 4/26/16.
  */
-public class TaskActivity {
-    public String taskName;
-    public String taskDescription;
-
-    public TaskActivity(String name, String description)
-    {
-        taskName = name;
-        taskDescription = description;
+public class TaskActivity extends AppCompatActivity{
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Intent intent = getIntent();
+        setContentView(R.layout.activity_task);
     }
 
-    public TaskActivity(String name)
-    {
-        taskName = name;
-    }
 
-    public void editDescription(String description)
-    {
-        taskDescription = description;
     }
-}
