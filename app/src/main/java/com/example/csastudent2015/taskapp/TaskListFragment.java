@@ -36,10 +36,65 @@ public class TaskListFragment extends Fragment {
         task1 = (TextView) rootView.findViewById(R.id.textView1);
         task2 = (TextView) rootView.findViewById(R.id.textView2);
         task3 = (TextView) rootView.findViewById(R.id.textView3);
+        task4 = (TextView) rootView.findViewById(R.id.textView4);
         task5= (TextView) rootView.findViewById(R.id.textView5);
         task6 = (TextView) rootView.findViewById(R.id.textView6);
 
         task1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Do something in response to button click
+                Intent myIntent = new Intent(getActivity(), TaskActivity.class);
+                getActivity().startActivity(myIntent);
+
+            }
+        });
+
+        task1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Do something in response to button click
+                Intent myIntent = new Intent(getActivity(), TaskActivity.class);
+                getActivity().startActivity(myIntent);
+
+            }
+        });
+
+        task2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Do something in response to button click
+                Intent myIntent = new Intent(getActivity(), TaskActivity.class);
+                getActivity().startActivity(myIntent);
+
+            }
+        });
+
+        task3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Do something in response to button click
+                Intent myIntent = new Intent(getActivity(), TaskActivity.class);
+                getActivity().startActivity(myIntent);
+
+            }
+        });
+
+        task4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Do something in response to button click
+                Intent myIntent = new Intent(getActivity(), TaskActivity.class);
+                getActivity().startActivity(myIntent);
+
+            }
+        });
+
+        task5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Do something in response to button click
+                Intent myIntent = new Intent(getActivity(), TaskActivity.class);
+                getActivity().startActivity(myIntent);
+
+            }
+        });
+
+        task6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Do something in response to button click
                 Intent myIntent = new Intent(getActivity(), TaskActivity.class);
