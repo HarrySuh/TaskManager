@@ -29,7 +29,8 @@
             android:layout_width="260dp"
             android:layout_height="match_parent"
             android:id="@+id/textView2"
-            android:layout_weight="0.12" />
+            android:layout_weight="0.12"
+            android:text="Task 2"/>
 
 
     </LinearLayout>
@@ -45,7 +46,8 @@
             android:layout_height="match_parent"
             android:id="@+id/textView3"
             android:layout_weight="0.12"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+        android:text="Task 3"/>
 
 
     </LinearLayout>
@@ -61,7 +63,8 @@
             android:layout_height="match_parent"
             android:id="@+id/textView4"
             android:layout_weight="0.12"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+        android:text="Task 4"/>
 
     </LinearLayout>
 
@@ -76,7 +79,8 @@
             android:layout_height="match_parent"
             android:id="@+id/textView5"
             android:layout_weight="0.12"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+        android:text="Task 5"/>
 
 
     </LinearLayout>
@@ -92,7 +96,8 @@
             android:layout_height="match_parent"
             android:id="@+id/textView6"
             android:layout_weight="0.12"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+        android:text="Task 6"/>
 
 
     </LinearLayout>
