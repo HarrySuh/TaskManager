@@ -18,6 +18,16 @@ public class Task {
         taskName = name;
     }
 
+    public String getNewName()
+    {
+        return taskName;
+    }
+
+    public String getDescription()
+    {
+        return taskDescription;
+    }
+
     public void editDescription(String description)
     {
         taskDescription = description;
