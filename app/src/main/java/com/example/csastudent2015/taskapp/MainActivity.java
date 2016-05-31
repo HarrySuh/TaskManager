@@ -24,6 +24,12 @@ public class MainActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        if(fragmentManager.findFragmentByTag("task_fragment") == null) {
+            fragmentManager.beginTransaction()
+                    .add(R.id.content_frame, new TaskFragment(), "task_fragment")
+                    .commit();
+        }
 
         mTitle = "title";
         mPlanetTitles = getResources().getStringArray(R.array.drawer_items);
@@ -108,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
             fragment = new TaskFragment();
         }
         else {
-            fragment = new UserFragment();
+            fragment = new CreateNewTaskFragment();
         }
             FragmentManager fragmentManager = getSupportFragmentManager();
             fragmentManager.beginTransaction()
@@ -127,6 +133,4 @@ public class MainActivity extends AppCompatActivity {
         mTitle = title;
         getSupportActionBar().setTitle(mTitle);
     }
-
-
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="drawer_items">
-        <item>tasks</item>
-        <item>users</item>
+        <item>Tasks</item>
+        <item>Create New Task</item>
     </string-array>
 </resources>

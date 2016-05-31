@@ -2,4 +2,22 @@
     <string name="app_name">TaskApp</string>
     <string name="drawer_open">open</string>
     <string name="drawer_close">close</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="username_hint2">Username</string>
+    <string name="password_hint2">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="email_address_hint">Email Address</string>
+    <string name="sign_up_label">Sign Up</string>
+    <string name="login_error_message">Please make sure you enter a username and password!</string>
+    <string name="login_error_title">Error!</string>
+    <string name="signUpName_error_message">Please enter your first name</string>
+    <string name="signUpLastName_error_message">Please enter your last name</string>
+    <string name="signUpUsername_message">Please enter your desired username</string>
+    <string name="signUpPassword_message">Please enter your password</string>
+    <string name="signUpReEnterPassword_message">Please re enter your password</string>
+    <string name="signUpEmail_message">Please enter your email</string>
+    <string name="success_title">Success!</string>
+    <string name="success_message">Your account has been created!</string>
+    <string name="passwordDoNotMatch_message">Passwords do not match</string>
 </resources>
